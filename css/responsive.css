@@ -1134,6 +1134,8 @@ display:none;
 	
 	.main-header .nav-outer{
 		width:100%;
+		max-width:unset !important; 
+     margin:unset;
 	}
 	
 	.main-menu .cart-box{

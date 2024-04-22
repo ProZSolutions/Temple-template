@@ -1304,10 +1304,13 @@ float:right;
 .sticky-header .main-menu .navigation > li > a{
 	color:#444444 !important;
 }
+.main-menu .navigation > li.current >a{
+	color: #b53539 ;
+}
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a{
-	color:#ab7442;
+	color:#ab7442 !important;
 	background-color:inherit !important;
 }
 
@@ -1531,11 +1534,12 @@ float:right;
 	padding: 10px 0px 0px;
 	float: left;
 	width: 14%;
-	display: none;
+	/* display: none; */
 }
 .sticky-header .logo img {
 	width: 100%;
 }
+
 .fixed-header .sticky-header{
 	z-index:999;
 	opacity:1;
