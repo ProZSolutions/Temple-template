@@ -4,7 +4,16 @@
 	.page-wrapper{
 		overflow:hidden;	
 	}
+	.main-header .header-upper .logo-box {
+		margin-left: 0;
+		width: auto;
+		/* position: absolute; */
+		top: 0;
+		left: 0;
+		z-index: 12;
+	}
 }
+
 
 @media only screen and (max-width: 1600px){
 	
@@ -56,7 +65,7 @@
 	}
 	
 .sticky-header .main-menu .navigation > li {
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 .experiance-section {
@@ -707,7 +716,7 @@ width: 50%;
 	
 	
 	.logo img {
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .main-header .header-upper .logo-box .logo {
