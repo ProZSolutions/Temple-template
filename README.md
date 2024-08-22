@@ -1,2 +1,2 @@
 # Temple-template
-BAsic Responsiveness templatee
+Basic Responsiveness template
